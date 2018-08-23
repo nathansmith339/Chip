@@ -15,4 +15,4 @@ async def on_message(message):
     if message.content.startswith('!foo'):
         await client.send_message(destination=message.channel, content='bar')
 
-client.run('NDgyMDM0ODE0NDE3ODk1NDM0.Dl_O3w.Zm8LBKK-mxmxdUNsDe52AK1yavw')
+client.run('<TOKEN>')
